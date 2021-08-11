@@ -31,7 +31,7 @@ namespace A027_StringConcat
             string strInterpolation = $"Hello {userName}. Today is {date}.";
             Console.WriteLine(strInterpolation);
 
-            // 방법 4
+            // 방법 4  // 
             string strConcat = String.Concat("Hello ", userName, ". Today is ", date, ".");
             Console.WriteLine(strConcat);
 
