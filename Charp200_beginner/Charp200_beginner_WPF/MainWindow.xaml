@@ -1,0 +1,29 @@
+﻿<Window x:Class="Charp200_beginner_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Charp200_beginner_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="삼십오" Content="35" HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top" Width="75" Click="삼십오_Click"/>
+        <Button x:Name="삼십육" Content="36" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="75" Click="삼십육_Click" />
+        <Button x:Name="삼십칠" Content="37" HorizontalAlignment="Left" Margin="210,20,0,0" VerticalAlignment="Top" Width="75" Click="삼십칠_Click" />
+        <Button x:Name="삼십구" Content="39" HorizontalAlignment="Left" Margin="300,20,0,0" VerticalAlignment="Top" Width="75" Click="삼십구_Click" />
+        <Button x:Name="사십"   Content="40" HorizontalAlignment="Left" Margin="390,20,0,0" VerticalAlignment="Top" Width="75" Click="사십_Click" />
+        <Button x:Name="사십일" Content="41" HorizontalAlignment="Left" Margin="480,20,0,0" VerticalAlignment="Top" Width="75" Click="사십일_Click" />
+        <Button x:Name="사십삼" Content="43" HorizontalAlignment="Left" Margin="570,20,0,0" VerticalAlignment="Top" Width="75" Click="사십삼_Click" />
+        <Button x:Name="사십사" Content="44" HorizontalAlignment="Left" Margin="660,20,0,0" VerticalAlignment="Top" Width="75" Click="사십사_Click" />
+        <Button x:Name="사십오" Content="45" HorizontalAlignment="Left" Margin="30,60,0,0" VerticalAlignment="Top" Width="75" Click="사십오_Click" />
+        <Button x:Name="사십팔" Content="48" HorizontalAlignment="Left" Margin="120,60,0,0" VerticalAlignment="Top" Width="75" Click="사십팔_Click" />
+        <Button x:Name="사십구" Content="49" HorizontalAlignment="Left" Margin="210,60,0,0" VerticalAlignment="Top" Width="75" Click="사십구_Click" />
+        <Button x:Name="오십"   Content="50" HorizontalAlignment="Left" Margin="300,60,0,0" VerticalAlignment="Top" Width="75" Click="오십_Click" />
+        <Button x:Name="오십일" Content="51" HorizontalAlignment="Left" Margin="390,60,0,0" VerticalAlignment="Top" Width="75" Click="오십일_Click" />
+        <Button x:Name="오십이" Content="52" HorizontalAlignment="Left" Margin="480,60,0,0" VerticalAlignment="Top" Width="75" Click="오십이_Click" />
+        <Button x:Name="오십삼" Content="53" HorizontalAlignment="Left" Margin="570,60,0,0" VerticalAlignment="Top" Width="75" Click="오십삼_Click" />
+        <Button x:Name="오십사" Content="54" HorizontalAlignment="Left" Margin="660,60,0,0" VerticalAlignment="Top" Width="75" Click="오십사_Click" />
+        <Button x:Name="오십오" Content="55" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="75" Click="오십오_Click" />
+        <Button x:Name="오십육" Content="56" HorizontalAlignment="Left" Margin="120,100,0,0" VerticalAlignment="Top" Width="75" Click="오십육_Click" />
+    </Grid>
+</Window>

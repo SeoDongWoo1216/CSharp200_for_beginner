@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A034_ValueAndReference", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A035_PassingArrayAndObject", "A035_PassingArrayAndObject\A035_PassingArrayAndObject.csproj", "{FC7B2B1E-3D7E-4A3D-9C69-88DBD25216EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charp200_beginner_WPF", "Charp200_beginner_WPF\Charp200_beginner_WPF.csproj", "{114FF5F6-61E2-4F52-8E9B-678B5A446E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{FC7B2B1E-3D7E-4A3D-9C69-88DBD25216EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7B2B1E-3D7E-4A3D-9C69-88DBD25216EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7B2B1E-3D7E-4A3D-9C69-88DBD25216EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114FF5F6-61E2-4F52-8E9B-678B5A446E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114FF5F6-61E2-4F52-8E9B-678B5A446E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114FF5F6-61E2-4F52-8E9B-678B5A446E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114FF5F6-61E2-4F52-8E9B-678B5A446E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
