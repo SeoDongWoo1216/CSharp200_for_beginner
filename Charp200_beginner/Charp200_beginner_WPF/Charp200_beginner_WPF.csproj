@@ -58,8 +58,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="_65_Class.cs" />
     <Compile Include="_35_Class.cs" />
     <Compile Include="_37_Class.cs" />
+    <Compile Include="_67_Class.cs" />
+    <Compile Include="_68_Class.cs" />
+    <Compile Include="_66_Class.cs" />
+    <Compile Include="_69_Class.cs" />
+    <Compile Include="_94_Class.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

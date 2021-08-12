@@ -25,5 +25,24 @@
         <Button x:Name="오십사" Content="54" HorizontalAlignment="Left" Margin="660,60,0,0" VerticalAlignment="Top" Width="75" Click="오십사_Click" />
         <Button x:Name="오십오" Content="55" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="75" Click="오십오_Click" />
         <Button x:Name="오십육" Content="56" HorizontalAlignment="Left" Margin="120,100,0,0" VerticalAlignment="Top" Width="75" Click="오십육_Click" />
+        <Button x:Name="오십칠" Content="57" HorizontalAlignment="Left" Margin="210,100,0,0" VerticalAlignment="Top" Width="75" Click="오십칠_Click" />
+        <Button x:Name="오십팔" Content="58" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Width="75" Click="오십팔_Click" />
+        <Button x:Name="오십구" Content="59" HorizontalAlignment="Left" Margin="390,100,0,0" VerticalAlignment="Top" Width="75" Click= "오십구_Click" />
+        <Button x:Name="육십오" Content="65" HorizontalAlignment="Left" Margin="480,100,0,0" VerticalAlignment="Top" Width="75" Click="육십오_Click" />
+        <Button x:Name="육십육" Content="66" HorizontalAlignment="Left" Margin="570,100,0,0" VerticalAlignment="Top" Width="75" Click="육십육_Click" />
+        <Button x:Name="육십칠" Content="67" HorizontalAlignment="Left" Margin="660,100,0,0" VerticalAlignment="Top" Width="75" Click="육십칠_Click" />
+        <Button x:Name="육십팔" Content="68" HorizontalAlignment="Left" Margin="30,140,0,0" VerticalAlignment="Top" Width="75" Click="육십팔_Click" />
+        <Button x:Name="육십구" Content="69" HorizontalAlignment="Left" Margin="120,140,0,0" VerticalAlignment="Top" Width="75" Click="육십구_Click" />
+        <Button x:Name="구십삼" Content="93" HorizontalAlignment="Left" Margin="210,140,0,0" VerticalAlignment="Top" Width="75" Click="구십삼_Click" />
+        <Button x:Name="구십사" Content="94" HorizontalAlignment="Left" Margin="300,140,0,0" VerticalAlignment="Top" Width="75" Click="구십사_Click" />
+        <Button x:Name="백이" Content="102" HorizontalAlignment="Left" Margin="390,140,0,0" VerticalAlignment="Top" Width="75" Click="백이_Click" />
+        <Button x:Name="백삼" Content="103" HorizontalAlignment="Left" Margin="480,140,0,0" VerticalAlignment="Top" Width="75" Click="백삼_Click" />
+        <Button x:Name="백사" Content="104" HorizontalAlignment="Left" Margin="570,140,0,0" VerticalAlignment="Top" Width="75" Click="백사_Click" />
+        <Button x:Name="백십육" Content="116" HorizontalAlignment="Left" Margin="660,140,0,0" VerticalAlignment="Top" Width="75" Click="백십육_Click" />
+        <Button x:Name="백십칠" Content="117" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top" Width="75" Click="백십칠_Click" />
+        <Button x:Name="백이십" Content="120" HorizontalAlignment="Left" Margin="120,180,0,0" VerticalAlignment="Top" Width="75" Click="백이십_Click" />
+        <Button x:Name="백이십일" Content="121" HorizontalAlignment="Left" Margin="210,180,0,0" VerticalAlignment="Top" Width="75" Click="백이십일_Click" />
+        <Button x:Name="백이십이" Content="122" HorizontalAlignment="Left" Margin="300,180,0,0" VerticalAlignment="Top" Width="75" Click="백이십이_Click" />
+        <Button x:Name="백이십사" Content="124" HorizontalAlignment="Left" Margin="390,180,0,0" VerticalAlignment="Top" Width="75" Click="백이십사_Click" />
     </Grid>
 </Window>
