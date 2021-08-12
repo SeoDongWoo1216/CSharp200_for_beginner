@@ -83,7 +83,7 @@ namespace Charp200_beginner_WPF
 
             Console.WriteLine("종료합니다.");
             Console.WriteLine("-----------------------------------------");
-
+            Console.WriteLine();
         }
 
         private void LongNameAnimal(string animal)
@@ -118,6 +118,7 @@ namespace Charp200_beginner_WPF
             MyList37<string> sList = new MyList37<string>();
             Console.WriteLine("sList : " + sList.GetLast());
             Console.WriteLine("--------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -125,7 +126,7 @@ namespace Charp200_beginner_WPF
         private void 삼십구_Click(object sender, RoutedEventArgs e)
         {
             // 39. object 타입과 박싱, 언박싱
-
+            Console.WriteLine("-------- 39. object 타입과 박싱, 언박싱 --------");
             int i39 = 123;
            
             object o39 = i39;  // i의 값을 박싱하여 o로 복사
@@ -143,6 +144,8 @@ namespace Charp200_beginner_WPF
             o39 = 100;
             Console.WriteLine("The object-type value o39 = {0}", o39);
             Console.WriteLine("The object-type value p39 = {0}", p39);
+            Console.WriteLine("------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -150,7 +153,8 @@ namespace Charp200_beginner_WPF
         private void 사십_Click(object sender, RoutedEventArgs e)
         {
             // 40. if~else 조건문
-
+            Console.WriteLine("-------- 40. if~else 조건문 --------");
+            Console.Write("윤년인지 평년인지 검사할 숫자 입력: ");
             int year40 = int.Parse(Console.ReadLine());
 
             if(year40 % 4 == 0 && year40 % 100 != 0 || year40 % 400 == 0)
@@ -162,7 +166,10 @@ namespace Charp200_beginner_WPF
                 Console.WriteLine("{0}은 윤년", year40);
             else
                 Console.WriteLine("{0}은 평년", year40);
-            
+            Console.WriteLine("------------------------------------");
+
+            Console.WriteLine();
+
         }
 
         //////////////////////////////////////////////////////////////////
@@ -170,6 +177,8 @@ namespace Charp200_beginner_WPF
         private void 사십일_Click(object sender, RoutedEventArgs e)
         {
             // 41. switch 문
+            Console.WriteLine("-------- 41. switch 문 --------");
+
             Console.Write("점수를 입력하세요: ");
             int score41 = int.Parse(Console.ReadLine());
 
@@ -203,6 +212,8 @@ namespace Charp200_beginner_WPF
                     break;
             }
             Console.WriteLine("학점은 {0}", grade41);
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -210,6 +221,8 @@ namespace Charp200_beginner_WPF
         private void 사십삼_Click(object sender, RoutedEventArgs e)
         {
             // 43. 반복문(1~100 까지 더하고, 역수의 합)
+
+            Console.WriteLine("-------- 43. 반복문(1~100 까지 더하고, 역수의 합) --------");
 
             // 1. 1 ~ 100 까지 더하기
             int sum43_1 = 0;
@@ -237,7 +250,8 @@ namespace Charp200_beginner_WPF
                 sum43_3 += 1.0 / i;
             }
             Console.WriteLine("1 ~ 100까지 역수의 합은 {0}", sum43_3);
-
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -245,6 +259,7 @@ namespace Charp200_beginner_WPF
         private void 사십사_Click(object sender, RoutedEventArgs e)
         {
             // 44. 반복문으로 2진, 8진, 16진 출력
+            Console.WriteLine("-------- 44. 반복문으로 2진, 8진, 16진 출력 --------");
             Console.WriteLine("{0,5}, {1,8}, {2, 3}, {3, 4}", "10진수", "2진수", "8진수", "16진수");
 
             for(int i = 1; i <= 128; i++)
@@ -255,6 +270,8 @@ namespace Charp200_beginner_WPF
                     Convert.ToString(i, 16)
                     );
             }
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -263,6 +280,7 @@ namespace Charp200_beginner_WPF
         {
             // 45. 반복문으로 구구단 출력
 
+            Console.WriteLine("-------- 45. 반복문으로 구구단 출력 --------");
             Console.Write("구구단의 출력할 단수를 입력하세요 : ");
             int n = int.Parse(Console.ReadLine());
 
@@ -270,6 +288,8 @@ namespace Charp200_beginner_WPF
             {
                 Console.WriteLine("{0} x {1} = {2}", n, i, n * i);
             }
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -278,6 +298,7 @@ namespace Charp200_beginner_WPF
         {
             // 48. 팩토리얼 구하기
 
+            Console.WriteLine("-------- 48. 팩토리얼 구하기 --------");
             Console.WriteLine("n! 을 계산합니다.");
             Console.Write("정수 n을 입력하세요 : ");
             int n = int.Parse(Console.ReadLine());
@@ -288,7 +309,8 @@ namespace Charp200_beginner_WPF
                 fact *= i;
             }
             Console.WriteLine("{0}! = {1}", n, fact);
-            
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
         }
 
 
@@ -296,6 +318,8 @@ namespace Charp200_beginner_WPF
         private void 사십구_Click(object sender, RoutedEventArgs e)
         {
             // 49. 소수 판단하기
+
+            Console.WriteLine("-------- 49. 소수 판단하기 --------");
 
             Console.Write("숫자를 입력하세요 : ");
             int num49 = int.Parse(Console.ReadLine());
@@ -313,6 +337,8 @@ namespace Charp200_beginner_WPF
             {
                 Console.WriteLine("{0}은 소수입니다.", num49);
             }
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -320,6 +346,8 @@ namespace Charp200_beginner_WPF
         private void 오십_Click(object sender, RoutedEventArgs e)
         {
             // 50. 원주율의 계산
+            Console.WriteLine("-------- 50. 원주율의 계산 --------");
+
             bool sign50 = false;
             double pi50 = 0;
 
@@ -337,6 +365,8 @@ namespace Charp200_beginner_WPF
                 }
                 Console.WriteLine("i = {0}, PI = {1}", i, 4 * pi50);
             }
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -345,6 +375,7 @@ namespace Charp200_beginner_WPF
         {
             // 51. 무한루프와 break 문
 
+            Console.WriteLine("-------- 51. 무한루프와 break 문 --------");
             int sum51 = 0;
             int days51 = 1;
             int money51 = 1000;
@@ -368,6 +399,9 @@ namespace Charp200_beginner_WPF
                     break;
             }
             Console.WriteLine("{0}일차에 {1:###.###}원이 됩니다.", days51, sum51);
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -375,6 +409,8 @@ namespace Charp200_beginner_WPF
         private void 오십이_Click(object sender, RoutedEventArgs e)
         {
             // 52. 합계가 10000이 넘어가는 순간
+
+            Console.WriteLine("-------- 52. 합계가 10000이 넘어가는 순간 --------");
 
             int sum52 = 0;
             for(int i = 1; ; i++)
@@ -394,6 +430,9 @@ namespace Charp200_beginner_WPF
                 sum52 += index52;
             }
             Console.WriteLine("1~{0}의 합 = {1}", index52 - 1, sum52);
+
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -401,6 +440,8 @@ namespace Charp200_beginner_WPF
         private void 오십삼_Click(object sender, RoutedEventArgs e)
         {
             // 53. 이중반복문으로 1~n까지의 팩토리얼과 합 구하기
+
+            Console.WriteLine("-------- 53. 이중반복문으로 1~n까지의 팩토리얼과 합 구하기 --------");
 
             Console.Write("숫자를 입력하세요 : ");
             int n53 = int.Parse(Console.ReadLine());
@@ -418,6 +459,9 @@ namespace Charp200_beginner_WPF
             }
             Console.WriteLine("1! + 2! + ... + {0}! = {1:N0}\n", n53, sum53);
 
+            Console.WriteLine("-------------------------------------------------------------------");
+
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -426,7 +470,9 @@ namespace Charp200_beginner_WPF
         {
             // 54. 이중 루프를 이용하여 구구단 출력
 
-            for(int y = 1; y <= 9; y++)
+            Console.WriteLine("-------- 54. 이중 루프를 이용하여 구구단 출력 --------");
+
+            for (int y = 1; y <= 9; y++)
             {
                 for(int x = 2; x <= 9; x++)
                 {
@@ -434,6 +480,9 @@ namespace Charp200_beginner_WPF
                 }
                 Console.WriteLine();
             }
+            
+            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -442,6 +491,7 @@ namespace Charp200_beginner_WPF
         {
             // 55. 1000까지 소수 출력하고 이게 몇개 인지 출력
 
+            Console.WriteLine("-------- 55. 1000까지 소수 출력하고 이게 몇개 인지 출력 --------");
             int index55;
             int prime55 = 0;
 
@@ -461,7 +511,9 @@ namespace Charp200_beginner_WPF
                 }
             }
             Console.WriteLine("\n2부터 1000사이 소수 개수 : {0}개", prime55);
-            
+            Console.WriteLine("----------------------------------------------------------------");
+
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -470,7 +522,8 @@ namespace Charp200_beginner_WPF
         {
             // 56. 이중 루프와 피라미드 출력
 
-            // (1)
+            Console.WriteLine("-------- 56. 이중 루프와 피라미드 출력 --------");
+
             // (1)
             for (int i = 1; i <= 5; i++)
             {
@@ -524,6 +577,8 @@ namespace Charp200_beginner_WPF
                     Console.Write("*");
                 Console.WriteLine();
             }
+            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -531,6 +586,8 @@ namespace Charp200_beginner_WPF
         private void 오십칠_Click(object sender, RoutedEventArgs e)
         {
             // 57. 배열의 초기화와 배열 요소의 출력
+            Console.WriteLine("-------- 57. 배열의 초기화와 배열 요소의 출력 --------");
+
             int[] a57 = { 1, 2, 3 };
             Console.Write("a[]: ");
             foreach (var value in a57)
@@ -554,6 +611,8 @@ namespace Charp200_beginner_WPF
             foreach (int value in d)
                 Console.Write(value + " ");
             Console.WriteLine();
+            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -561,6 +620,7 @@ namespace Charp200_beginner_WPF
         private void 오십팔_Click(object sender, RoutedEventArgs e)
         {
             // 58. 배열과 Array 클래스
+            Console.WriteLine("-------- 58. 배열과 Array 클래스 --------");
 
             int[] a58 = { 5, 25, 75, 35, 15 };  // 배열 선언하고 초기화
             PrintArray(a58);
@@ -584,6 +644,9 @@ namespace Charp200_beginner_WPF
 
             Array.Clear(a58, 0, a58.Length); // 배열을 초기화
             PrintArray(a58);
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine();
         }
 
         private void PrintArray(int[] a58)
@@ -598,6 +661,8 @@ namespace Charp200_beginner_WPF
         private void 오십구_Click(object sender, RoutedEventArgs e)
         {
             // 59. 다차원 배열
+            Console.WriteLine("-------- 59. 다차원 배열 --------");
+
 
             Console.WriteLine("2차원 배열 : ArrA[2,3]");
             int[,] arrA59 = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
@@ -625,6 +690,8 @@ namespace Charp200_beginner_WPF
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -632,6 +699,8 @@ namespace Charp200_beginner_WPF
         private void 육십오_Click(object sender, RoutedEventArgs e)
         {
             // 65. 클래스와 구조체
+
+            Console.WriteLine("-------- 65. 클래스와 구조체 --------");
 
             DateStruct65 sDay65;
             sDay65.year = 2018;
@@ -662,7 +731,9 @@ namespace Charp200_beginner_WPF
             Console.WriteLine("sDay: {0}/{1}/{2}", sDay65.year, sDay65.month, sDay65.day);
             Console.WriteLine("cDay: {0}/{1}/{2}", cDay65.year, cDay65.month, cDay65.day);
 
+            Console.WriteLine("-------------------------------------");
 
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -671,6 +742,8 @@ namespace Charp200_beginner_WPF
         {
             // 66. 클래스의 멤버, 필드와 상수
 
+            Console.WriteLine("-------- 66. 클래스의 멤버, 필드와 상수 --------");
+
             Product66 p66 = new Product66();
             p66.name = "시계";
             p66.price = 100000;
@@ -678,6 +751,10 @@ namespace Charp200_beginner_WPF
             Console.WriteLine("{0} : {1:C}", p66.name, p66.price);
             Console.WriteLine("원주율 : {0}", MyMath66.PI);
             Console.WriteLine("한달은 평균 {0:F3}일", MyCalendar66.daysPerMonth);
+
+            Console.WriteLine("------------------------------------------------");
+
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -685,6 +762,8 @@ namespace Charp200_beginner_WPF
         private void 육십칠_Click(object sender, RoutedEventArgs e)
         {
             // 67. 인스턴스 메소드와 스태틱 메소드
+
+            Console.WriteLine("-------- 67. 인스턴스 메소드와 스태틱 메소드 --------");
 
             Date67 xmas67 = new Date67();
 
@@ -704,6 +783,10 @@ namespace Charp200_beginner_WPF
             {
                 Console.WriteLine("2018년은 평년입니다.");
             }
+
+            Console.WriteLine("-----------------------------------------------------");
+
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -712,6 +795,8 @@ namespace Charp200_beginner_WPF
         {
             // 68. 생성자 메소드
 
+            Console.WriteLine("-------- 68. 생성자 메소드 --------");
+
             Date68 birthday68 = new Date68(2000, 11, 22);
             Date68 christmas68 = new Date68(2018, 12, 25);
             Date68 firstDay68 = new Date68();
@@ -719,6 +804,9 @@ namespace Charp200_beginner_WPF
             birthday68.PrintDate68();
             christmas68.PrintDate68();
             firstDay68.PrintDate68();
+
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -726,6 +814,8 @@ namespace Charp200_beginner_WPF
         private void 육십구_Click(object sender, RoutedEventArgs e)
         {
             // 69. 속성(프로퍼티)
+
+            Console.WriteLine("-------- 69. 속성(프로퍼티) --------");
 
             Rectangle69 r69_1 = new Rectangle69();
             r69_1.SetWidth69(10.0);
@@ -746,6 +836,9 @@ namespace Charp200_beginner_WPF
             r69_4.Width = 10.0;
             r69_4.Height = -10.0;
             Console.WriteLine("r3의 면적은 {0}", r69_4.Width * r69_4.Height);
+
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -754,6 +847,8 @@ namespace Charp200_beginner_WPF
         {
             // 93. 일반화 메소드(제네릭 메소드)
 
+            Console.WriteLine("-------- 93. 일반화 메소드(제네릭 메소드) --------");
+
             int[] a93 = { 1, 2, 3 };
             double[] d93 = { 0.1, 0.2, 0.3 };
             string[] s93 = { "tiger", "lion", "zebra" };
@@ -761,6 +856,9 @@ namespace Charp200_beginner_WPF
             PrintArray<int>(a93);
             PrintArray<double>(d93);
             PrintArray<string>(s93);
+
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine();
         }
 
         private void PrintArray<T>(T[] a)
@@ -776,6 +874,7 @@ namespace Charp200_beginner_WPF
         private void 구십사_Click(object sender, RoutedEventArgs e)
         {
             // 94. 일반화 클래스(제네릭 클래스)
+            Console.WriteLine("-------- 94. 일반화 클래스(제네릭 클래스) --------");
 
             MyClass94<int> a94 = new MyClass94<int>(10);
             MyClass94<string> s94 = new MyClass94<string>(5);
@@ -788,6 +887,9 @@ namespace Charp200_beginner_WPF
 
             Console.WriteLine("a.AddAll() : " + a94.AddAll94());
             Console.WriteLine("s.AddAll() : " + s94.AddAll94());
+
+            Console.WriteLine("--------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -795,6 +897,8 @@ namespace Charp200_beginner_WPF
         private void 백이_Click(object sender, RoutedEventArgs e)
         {
             // 102. 컬렉션, ArrayList 사용
+
+            Console.WriteLine("-------- 102. 컬렉션, ArrayList 사용 --------");
 
             ArrayList a102 = new ArrayList();
             Random r102 = new Random();
@@ -812,6 +916,9 @@ namespace Charp200_beginner_WPF
 
             a102.RemoveAt(3);   // 3번 인덱스 값을 제거하고 a에 저장된 값을 출력
             PrintValues102(a102);
+
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine();
         }
 
         private void PrintValues102(ArrayList a)
@@ -830,6 +937,9 @@ namespace Charp200_beginner_WPF
         private void 백삼_Click(object sender, RoutedEventArgs e)
         {
             // 103. List<T> 컬렉션
+
+            Console.WriteLine("-------- 103. List<T> 컬렉션 --------");
+
             List<int> a103 = new List<int>();
             Random r103 = new Random();
 
@@ -847,6 +957,8 @@ namespace Charp200_beginner_WPF
             a103.RemoveAt(3);   // 3번 인덱스 값을 제거하고 a에 저장된 값을 출력
             PrintValues103(a103);
 
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
         }
 
         private void PrintValues103(List<int> a)
@@ -865,6 +977,7 @@ namespace Charp200_beginner_WPF
         private void 백사_Click(object sender, RoutedEventArgs e)
         {
             // 104. List<T>와 배열의 정렬
+            Console.WriteLine("-------- 104. List<T>와 배열의 정렬 --------");
 
             List<string> lstNames104 = new List<string>();
             lstNames104.Add("dog");
@@ -889,6 +1002,8 @@ namespace Charp200_beginner_WPF
                 Console.Write(s + " ");
             Console.WriteLine();
 
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
@@ -896,28 +1011,54 @@ namespace Charp200_beginner_WPF
         private void 백십육_Click(object sender, RoutedEventArgs e)
         {
             // 116. 람다식
+            // => 연산자 사용
+            // x => x * x  는 매개변수 x에대해(왼쪽) x의 제곱을 리턴(오른쪽) 하는 람다식이다.
 
 
+            Console.WriteLine("-------------- 116. 람다식 --------------");
+
+            var arr116 = new[] { 3, 34, 6, 34, 7, 8, 24, 3, 675, 8, 23 };
+
+            int n116 = Count116(arr116, x => x % 2 == 0);
+            Console.WriteLine("짝수의 개수: " + n116);
+
+            n116 = Count116(arr116, x => x % 2 == 1);
+            Console.WriteLine("홀수의 개수: " + n116);
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine();
+        }
+        
+        private int Count116(int[] arr116, Func<int, bool> testMethod)
+        {
+            int cnt = 0;
+            foreach(var n in arr116)
+            {
+                if (testMethod(n))
+                    cnt++;
+            }
+            return cnt;
         }
 
         //////////////////////////////////////////////////////////////////
 
         private void 백십칠_Click(object sender, RoutedEventArgs e)
         {
+            // 117. 람다식의 사용
+            Console.WriteLine("-------------- 117. 람다식의 사용 --------------");
+            Console.WriteLine("------------------------------------------------");
 
+            // 1. 식 람다(
         }
 
         //////////////////////////////////////////////////////////////////
 
         private void 백이십_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        //////////////////////////////////////////////////////////////////
-
-        private void 백이십_Click_1(object sender, RoutedEventArgs e)
-        {
+            // 120. LINQ의 기초
+            Console.WriteLine("-------------- 120. LINQ의 기초 --------------");
+            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine();
 
         }
 
@@ -925,13 +1066,21 @@ namespace Charp200_beginner_WPF
 
         private void 백이십일_Click(object sender, RoutedEventArgs e)
         {
+            // 121. LINQ를 이용한 조건 검색과 정렬
+            Console.WriteLine("--------- 121. LINQ를 이용한 조건 검색과 정렬 ----------");
 
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
 
         private void 백이십이_Click(object sender, RoutedEventArgs e)
         {
+            // 122. LINQ의 결과를 리스트나 배열로 반환
+            Console.WriteLine("--------- 122. LINQ의 결과를 리스트나 배열로 반환 ----------");
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine();
 
         }
 
@@ -939,7 +1088,10 @@ namespace Charp200_beginner_WPF
 
         private void 백이십사_Click(object sender, RoutedEventArgs e)
         {
-
+            // 124. Linq, Group By로 데이터를 분류
+            Console.WriteLine("--------- 124. Linq, Group By로 데이터를 분류 ----------");
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine();
         }
 
         //////////////////////////////////////////////////////////////////
