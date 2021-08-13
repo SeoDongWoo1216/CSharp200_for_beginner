@@ -1,0 +1,68 @@
+﻿<Window xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"  xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"  x:Class="A160_SimpleCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A160_SimpleCalc"
+        mc:Ignorable="d"
+        Title="Dev계산기" Height="420" Width="320" ResizeMode="NoResize">
+    
+    <StackPanel Margin="10">
+        
+        
+        <!--버튼 16개를 묶을 그리드-->
+        <Grid Height="350">  
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <dxe:TextEdit Name="txtLabel" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                           FontSize="10"  Margin="5" IsReadOnly="True"/>
+
+            <dxe:TextEdit Name="txtResult" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2"
+                           FontSize="20" HorizontalContentAlignment="Right" Margin="5"/>
+
+            <!--버튼 1행-->
+            <dx:SimpleButton Content="?" Grid.Row="1" Grid.Column="0" Margin="5" FontSize="16" />
+            <dx:SimpleButton Content="?" Grid.Row="1" Grid.Column="1" Margin="5" FontSize="16" />
+            <dx:SimpleButton Content="?" Grid.Row="1" Grid.Column="2" Margin="5" FontSize="16" />
+            <dx:SimpleButton Content="C" Grid.Row="1" Grid.Column="3" Margin="5" FontSize="16" Click="ClearButton_Click"/>
+
+            <!--버튼 2행-->
+            <dx:SimpleButton Content="7" Grid.Row="2" Grid.Column="0" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="8" Grid.Row="2" Grid.Column="1" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="9" Grid.Row="2" Grid.Column="2" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="+" Grid.Row="2" Grid.Column="3" Margin="5" FontSize="16" Click="Operators_Click"/>
+
+            <!--버튼 3행-->
+            <dx:SimpleButton Content="4" Grid.Row="3" Grid.Column="0" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="5" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="6" Grid.Row="3" Grid.Column="2" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="-" Grid.Row="3" Grid.Column="3" Margin="5" FontSize="16" Click="Operators_Click"/>
+
+            <!--버튼 4행-->
+            <dx:SimpleButton Content="1" Grid.Row="4" Grid.Column="0" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="2" Grid.Row="4" Grid.Column="1" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="3" Grid.Row="4" Grid.Column="2" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="*" Grid.Row="4" Grid.Column="3" Margin="5" FontSize="16" Click="Operators_Click"/>
+
+            <!--버튼 5행-->
+            <dx:SimpleButton Content="." Grid.Row="5" Grid.Column="0" Margin="5" FontSize="16" Click="DotButton_Click"/>
+            <dx:SimpleButton Content="0" Grid.Row="5" Grid.Column="1" Margin="5" FontSize="16" Click="NumberButton_Click"/>
+            <dx:SimpleButton Content="=" Grid.Row="5" Grid.Column="2" Margin="5" FontSize="16" Click="EqualButton_Click"/>
+            <dx:SimpleButton Content="/" Grid.Row="5" Grid.Column="3" Margin="5" FontSize="16" Click="Operators_Click"/>
+
+        </Grid>
+    </StackPanel>
+</Window>
