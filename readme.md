@@ -18,3 +18,17 @@ https://recoveryman.tistory.com/392 <br>
 - 117 람다식 전까지 완료
 - LINQ, 람다식은 예제 작성전에 미리 스터디,,
 ![image](https://user-images.githubusercontent.com/66929074/129284481-286cc4fe-028e-4ddb-865b-f83d063a2958.png)
+
+## 0813
+#### DevExpress 라이브러리 툴을 이용하여 계산기 만들기
+- 오류사항은 왼쪽 텍스트박스, 계산값을 오른쪽 텍스트박스에 출력
+- 오류 제어
+  - 0으로 나누려고했을때
+  - ㅁ + ㅁ = ㅇ  형식을 따라야하는데 =을 미리 눌렀을때
+  - 숫자를 입력하지않고 연산기호를 먼저 눌렀을때
+  - 소숫점 1개만 입력되도록 제어
+
+<br>
+
+![image](https://user-images.githubusercontent.com/66929074/129642773-ced23b73-efab-4af7-aecc-5423ac8837c3.png)
+
